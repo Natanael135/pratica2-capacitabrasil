@@ -1,4 +1,4 @@
-/*Menu */
+/*menu */
 .menu {
   display: flex;
   align-items: center;
@@ -17,30 +17,30 @@ a {
 a:hover {
   color: #007bff;
 }
+
 /* form e botao*/
 .search-form {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.5rem;
 }
 
 .search-input {
-  padding: 0.5em 1em;
-  font-size: 1em;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
   width: 100%;
-  max-width: 20em;
-  border: 1px solid #ccc;
-  border-radius: 0.25em;
+  max-width: 20rem;
+  border: 2px solid #cccccc;
+  border-radius: 0.25rem;
 }
 
 .search-button {
-  padding: 0.5em 1em;
-  font-size: 1em;
+  padding: 0.5rem 1rem;
+  font-size: 1.1rem;
   background-color: #007bff;
   border: none;
-  border-radius: 0.25em;
+  border-radius: 0.25rem;
   cursor: pointer;
-  transition: background-color 0.3s;
 }
 
 .search-button:hover {
